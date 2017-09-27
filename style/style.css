@@ -3,15 +3,26 @@
 	padding: 0px;
 }
 body{
-    background-color:rgb(255, 255, 255);
+    background-color:#cfd8dc;
 }
-.nav-wrapper{
-    margin-top: 30px;
-    background-color:rgb(37, 193, 255);
+nav{
+    position: fixed;
+    z-index:2;
+    top:0;   
+}
+.nav-wrapper{ 
+    background-color:#000 ;
+}
+li{
+    background-color: #000;
 }
 .img1{
     max-width:55% !important;
 }
+#carrusel{
+    margin-top: 63px;
+    position: relative;
+}
 #car1{
-    width:300px;
+    width:700px;
 }

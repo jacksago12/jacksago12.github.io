@@ -2,7 +2,5 @@
 $(".dropdown-button").dropdown();
 $(".button-collapse").sideNav();
 //carousel//
-$(document).ready(function(){
-    $('.carousel').carousel();
-  });
+$('.carousel.carousel-slider').carousel({fullWidth: true});
      
