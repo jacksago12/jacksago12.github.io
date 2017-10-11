@@ -1,6 +1,10 @@
 *{
-    margin: 0px;
-	padding: 0px;
+    margin:0px;
+    padding:0px;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 body{
     background-color:#cfd8dc;
@@ -18,11 +22,51 @@ li{
 }
 .img1{
     max-width:55% !important;
+    width: 200px;
+}
+#tit{
+    position: relative;
+    height: 120px;
+}
+#img2{
+    position: absolute;
+    width:400px;
+    margin: auto;
 }
 #carrusel{
     margin-top: 63px;
     position: relative;
+    width: 900px;
 }
 #car1{
-    width:700px;
+    width:900px;
+}
+#cont_info{
+    position: relative;
+    height:350px;
+    background-color : #ff6f00;
+}
+#cont_info2{
+    position: relative;
+    height:350px;
+    background-color : #cfd8dc;
+}
+#con_img_ejer{
+    position: relative;
+
+    width: 450px;
+    height: 350px;
+}
+#ejer_img{
+    position: absolute;
+    width: 400px;
+    margin:auto;
+}
+#con_info_ejer{
+    color: #000;
+    position: absolute;
+    margin-left: 40%;
+    z-index:1;
+
+
 }
